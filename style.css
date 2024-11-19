@@ -1,0 +1,76 @@
+body
+{
+    margin:0;
+    display: flex; 
+    justify-content: center;
+    
+}
+
+.tip-calculator
+{
+
+    margin: 20px;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    background-color:aquamarine;
+    color: black;
+}
+
+h3
+{  
+    text-align: center;
+    color: blue;
+
+}
+
+p
+{
+   text-align: center;
+   font-weight: bolder;
+}
+label
+{
+   
+     display: inline;
+     color: brown;
+     font-size: medium;
+     font-weight: bold;
+     
+}
+
+input
+{
+
+   padding: 10px;
+   margin: 5px 5px;
+   height: 30px;
+   width: 90%;
+}
+
+
+
+button{
+    background-color: rgb(19, 187, 70);
+    color: white;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+    margin :15px 10px;
+    width: 93%;
+    height: 35px;
+   
+}
+
+button:hover
+{
+    background-color: rgb(92, 0, 0);
+}
+
+#total
+{
+      font-size: large;
+      color: black;
+      font-weight: bolder;
+      margin-top: 20px;
+}
